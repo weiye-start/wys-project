@@ -1,13 +1,13 @@
 #include <stdio.h>
-int main(void){
-    int x,x0,x1,y,y0,y1;
-    printf("请输入x0和y0: \n");
-    scanf("%d%d",&x0,&y0);
-    printf("请输入x1和y1: \n");
-    scanf("%d%d",&x1,&y1);
-    printf("请输入x: \n");
-    scanf("%d",&x);
-    y = (y1-y0)/(x1-x0)*(x-x0) + y0;
-    printf("%d时的气温是%d摄氏度",x,y);
+int main(){
+    int a,a1,a2,a3,a4;
+    scanf("%d",&a);
+    a4 = a%10;
+    a3 = a/10%10;
+    a2 = a/100%10;
+    a1 = a/1000%10;
+    printf("%d\t%d\t%d\t%d",a1,a2,a3,a4);
+    getchar();
+    getchar();
     return 0;
 }

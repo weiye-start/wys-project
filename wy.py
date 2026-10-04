@@ -1,4 +1,3 @@
-import numpy as np
-a = [1,2,3,4]
-v = np.vander(a,increasing=True)
-print(v)
+a = str(1+2)
+print(a)
+print(type(a))
