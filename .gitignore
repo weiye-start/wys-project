@@ -16,3 +16,16 @@ __pycache__/
 
 # 忽略 VS Code 个人配置文件
 .vscode/
+
+# PDF 翻译工具的产物与密钥
+pdf2zh/out/
+pdf2zh/.deepseek_key
+pdf2zh/.env
+pdf2zh/_*.txt
+pdf2zh/_*.pdf
+pdf2zh/_selftest/
+pdf2zh/_*.py
+pdf2zh/README.md
+.gitignore
+pdf2zh/run_translate.bat
+pdf2zh/translate_dslr.py

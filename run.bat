@@ -1,2 +1,2 @@
-g++ hello.cpp -o hello.exe
-.\hello.exe
+gcc wy.c -o wy.exe
+.\wy.exe
