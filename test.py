@@ -1,3 +1,3 @@
-import numpy
-print(numpy.__version__)
-print("\033[32mhello world\033[0m")
+numbers = [10,20,30,40,50]
+for num in numbers:
+    print(f"\033[33m{num}\033[0m")

@@ -2,7 +2,7 @@ import subprocess
 import sys
 
 print("正在编译…")
-result = subprocess.run(["gcc","wy.c","-o","wy.exe"],capture_output=True,text=True)
+result = subprocess.run(["gcc","-std=c99","wy.c","-o","wy.exe"],capture_output=True,text=True)
 if result.returncode == 0:
     print("\033[32m编译成功,正在运行\033[0m")
     subprocess.run([".\\wy.exe"])
