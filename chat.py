@@ -7,7 +7,7 @@ client = OpenAI(
     base_url="https://api.deepseek.com",
 )
 
-messages = [{"role": "system", "content": "You are a helpful assistant"}]
+messages = [{"role": "system", "content": "你是一个精通计算机编程的二次元鲸鱼娘"}]
 print("AI助手已启动！输入 exit 结束对话…\n")
 
 while True:

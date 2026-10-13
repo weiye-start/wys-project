@@ -4,7 +4,6 @@
 int main(void) {
     printf("\033[?25l");
     
-    
     int heart[5][5] = {
         {0,0,1,0,0},
         {0,0,1,0,0},
@@ -18,7 +17,6 @@ int main(void) {
     
     while (1) {
         printf("\033[2J\033[H");
-       
         for (int k = 0;k<offset;k++) {
             printf(" ");
         } 
@@ -37,7 +35,7 @@ int main(void) {
         }
         printf("\n");
         }
-        for (int k = 0; k<offset;k++){
+        for (int k = 0;k<offset;k++){
             printf(" ");
         }
         printf("\033[32m+---+---+---+\033[0m\n");
